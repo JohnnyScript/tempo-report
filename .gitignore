@@ -1,0 +1,9 @@
+.env
+node_modules/
+
+# Notas internas de scratch (no se publican)
+NOTES.md
+
+# Datos locales de Jira/Tempo: nunca se suben, pero la carpeta debe existir
+data/*
+!data/.gitkeep

@@ -1,0 +1,22 @@
+{
+  "name": "tempo-report",
+  "version": "1.0.0",
+  "description": "Reporta tiempos de Jira en Tempo: descubre tu actividad, genera un borrador de worklogs y los crea en Tempo sin duplicar.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "discover": "node discover.mjs",
+    "check": "node tempo-check.mjs",
+    "build": "node build.mjs",
+    "fix": "node build-fix.mjs",
+    "audit": "node audit.mjs",
+    "detail": "node tempo-detail.mjs",
+    "add": "node add.mjs",
+    "post": "node tempo-post.mjs",
+    "delete": "node tempo-delete.mjs",
+    "prep": "node discover.mjs && node tempo-check.mjs && node build.mjs && node audit.mjs"
+  },
+  "license": "MIT"
+}
